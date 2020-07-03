@@ -7,4 +7,4 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
 ## Table of Contents
 
 - **Miscellaneous**
-  - `StringBuffer` vs. `String`: [StringBuffer.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StringBufferExample/StringBufferExample.java)
+  - `StringBuffer`/`StringBuilder` vs. `String` Objects: [StringBuffer.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StringBufferExample/StringBufferExample.java)
