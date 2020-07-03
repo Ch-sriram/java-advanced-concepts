@@ -8,7 +8,7 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
 
 - **Miscellaneous**
   - `StringBuffer`/`StringBuilder` vs. `String` Objects: [StringBuffer.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StringBuffer/StringBufferExample.java)
-  - Usage of `static {...}` a.k.a static block: [StaticBlockExample](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StaticBlock/StaticBlockExample.java)
+  - Usage of `static {...}` a.k.a static block: [StaticBlockExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StaticBlock/StaticBlockExample.java)
 
 - **Object Oriented Programming**
   - IS-A Relationship using Inheritance `extends`: [InheritanceExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/InheritanceExample/InheritanceExample.java)
