@@ -18,7 +18,7 @@ public class TryCatchExample {
             // System.out.println(str.charAt(10)); // StringIndexOutOfBoundsException
 
             String s = null;
-            System.out.println(s); // There's no output
+            System.out.println(s); // null
             // System.out.println(s.charAt(10)); // NullPointerException
 
             String numString = "ten";
