@@ -6,6 +6,9 @@ package oop.Overloading;
  * 
  * Example: "void m1();" and "void m1(int x);" are overloaded methods because they've different method signatures with one 
  * taking in no parameters and the other taking in an integer.
+ * 
+ * Now, Overloading is also sometimes known as Static Polymorphism or Early Binding or Compile Time Polymorphism because
+ * the resolution of the which methods to be executed which are overloaded is done at compile time by the javac.
  */
 
 public class OverloadingExample {
