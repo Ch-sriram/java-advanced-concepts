@@ -12,3 +12,4 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
 - **Object Oriented Programming**
   - IS-A Relationship using Inheritance `extends`: [InheritanceExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/InheritanceExample/InheritanceExample.java)
   - Concept of Overloading (a.k.a Static Polymorphism or Compile Time Polymorphism or Early Binding), Method Signatures & Automatic Promotion: [OverloadingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overloading/OverloadingExample.java)
+  - Concept of Overriding (a.k.a Dynamic Polymorphism or Runtime Polymorphism or Late Binding): [OverridingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overriding/OverridingExample.java)
