@@ -28,18 +28,18 @@ class Child extends Parent {
 public class OverridingExample {
     public static void main(String[] args) {
         // Case 1
-        Parent a1 = new Parent();
-        a1.add(100, 100); // 200
+        Parent p1 = new Parent();
+        p1.add(100, 100); // 200
 
         // Case 2
-        Child a2 = new Child();
-        a2.add(100, 100); // 300
+        Child c1 = new Child();
+        c1.add(100, 100); // 300
 
         // Case 3 - Dynamic Polymorphism => Child class object being referred by a Parent Class' Reference
-        Parent a3 = new Child();
-        a3.add(100, 100); // 300 => But here, Child class' method is bounded, but called through Parent class' reference
+        Parent p2 = new Child();
+        p2.add(100, 100); // 300 => But here, Child class' method is bounded, but called through Parent class' reference
 
         // Case 4
-        // Child a4 = new Parent(); // Illegal because a Child class' reference cannot refer to a Parent class' object.
+        // Child c2 = new Parent(); // Illegal because a Child class' reference cannot refer to a Parent class' object.
     }
 }
