@@ -38,5 +38,15 @@ public class OverloadingExample {
         // Major benefit of overloading is that we can use the method same name to give extra functionality to the method
         over.add(10, 20); // 30
         over.add(10, 20, 30); // 60
+
+
+        // There's a concept of automatic promotion when we overload something. So, if we do the following:
+        over.m1('a'); // m1() with int-arg: 97
+
+        // Here, in line 44, when 'a' is sent to the m1() method, the JVM first tries to match it with a method which might
+        // be of the signature "void m1(char x)", and when that's not available, then it goes to check if the next type's
+        // signature is available which is "void m1(short x)", and when even that is not available, it goes to look for 
+        // the method with the signature "void m1(int x)" and it will automatically promote character 'a' to an integer 
+        // type. And so, we get the output as the unicode/ascii value of 'a' which is 97.
     }
 }
