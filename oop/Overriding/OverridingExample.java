@@ -10,13 +10,13 @@ package oop.Overriding;
  * runtime.
  */
 
-class AddTwoIntegers {
+class Parent {
     public void add(int x, int y) {
         System.out.println(x + y);
     }
 }
 
-class AddTwoIntegersWithHundred extends AddTwoIntegers {
+class Child extends Parent {
     @Override
     public void add(int x, int y) { // We can see that the method signature is same as the parent class
         System.out.println(x + y + 100);
@@ -28,20 +28,18 @@ class AddTwoIntegersWithHundred extends AddTwoIntegers {
 public class OverridingExample {
     public static void main(String[] args) {
         // Case 1
-        AddTwoIntegers a1 = new AddTwoIntegers();
+        Parent a1 = new Parent();
         a1.add(100, 100); // 200
 
         // Case 2
-        AddTwoIntegersWithHundred a2 = new AddTwoIntegersWithHundred();
+        Child a2 = new Child();
         a2.add(100, 100); // 300
 
         // Case 3 - Dynamic Polymorphism => Child class object being referred by a Parent Class' Reference
-        AddTwoIntegers a3 = new AddTwoIntegersWithHundred();
+        Parent a3 = new Child();
         a3.add(100, 100); // 300 => But here, Child class' method is bounded, but called through Parent class' reference
 
         // Case 4
-        // AddTwoIntegersWithHundred a4 = new AddTwoIntegers();
-
-        // Code in line 43 is illegal because a child class' reference cannot refer to a parent class' object
+        // Child a4 = new Parent(); // Illegal because a Child class' reference cannot refer to a Parent class' object.
     }
 }
