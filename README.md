@@ -10,4 +10,5 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
   - `StringBuffer`/`StringBuilder` vs. `String` Objects: [StringBuffer.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StringBufferExample/StringBufferExample.java)
 
 - **Object Oriented Programming**
-  - IS-A relationship using inheritance `extends`: [InheritanceExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/InheritanceExample/InheritanceExample.java)
+  - IS-A Relationship using Inheritance `extends`: [InheritanceExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/InheritanceExample/InheritanceExample.java)
+  - Concept of Overloading, Method Signatures & Automatic Promotion: [OverloadingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overloading/OverloadingExample.java)
