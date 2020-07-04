@@ -16,7 +16,8 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
   - Concept of Overriding (a.k.a Dynamic Polymorphism or Runtime Polymorphism or Late Binding): [OverridingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overriding/OverridingExample.java)
   - Method Hiding for static methods & Overriding class attributes (not possible): [MethodHidingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/MethodHiding/MethodHidingExample.java)
   - The saga of the `super` keyword
-    1. `super` keyword and super class' constructor being called automatically by the `javac` when the child class' constructor is not defined: [SuperExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Super/SuperExample.java)
+    1. `super` keyword and Super Class' Constructor being called automatically by the `javac` when the Child Class' Constructor is Not Defined: [SuperExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Super/SuperExample/SuperExample.java)
+    2. The enforcement of Super Class' default (no-arg) Constructor to be defined: [SuperExample1.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Super/SuperExample1/SuperExample1.java)
 
 - **Exception Handling**
   - Handling Exceptions using `try` and `catch` blocks: [TryCatchExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/TryCatch/TryCatchExample.java)

@@ -1,4 +1,4 @@
-package oop.Super;
+package oop.Super.SuperExample;
 
 class Parent {
     public Parent() {
