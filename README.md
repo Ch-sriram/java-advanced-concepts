@@ -20,6 +20,7 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
     2. The enforcement of Super Class' default (no-arg) Constructor to be defined: [SuperExample1.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Super/SuperExample1/SuperExample1.java)
   - Inheriting and using abstract classes and methods using `abstract` keyword: [AbstractClassExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/AbstractClass/AbstractClassExample.java)
   - Interfaces using the `interface` keyword and implementing interfaces using `implements` keyword: [InterfaceExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Interface/InterfaceExample.java)
+  - Multiple Inheritance using Interfaces: [MultipleInheritance.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Interface/MultipleInheritance.java)
 
 - **Exception Handling**
   - Handling Exceptions using `try` and `catch` blocks: [TryCatchExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/TryCatch/TryCatchExample.java)
