@@ -27,3 +27,4 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
   - Writing Cleanup code inside the `finally` block: [FinallyExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/Finally/FinallyExample.java)
   - Using `throw` keyword to explicitly raise an exception: [ThrowExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/Throw/ThrowExample.java)
   - Using `throws` keyword to delegate an exception to the calling method: [ThrowsExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/Throws/ThrowsExample.java)
+  - Making custom defined exceptions by extending `RuntimeException` class: [UserDefinedExceptionExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/UserDefinedException/UserDefinedExceptionExample.java)
