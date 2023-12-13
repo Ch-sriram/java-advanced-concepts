@@ -8,12 +8,12 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
 
 - **Miscellaneous**
   - `StringBuffer`/`StringBuilder` vs. `String` Objects: [StringBuffer.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StringBuffer/StringBufferExample.java)
-  - Usage of `static {...}` a.k.a static block: [StaticBlockExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StaticBlock/StaticBlockExample.java)
+  - Usage of `static {...}` a.k.a. static block: [StaticBlockExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/misc/StaticBlock/StaticBlockExample.java)
 
 - **Object Oriented Programming**
   - IS-A Relationship using Inheritance `extends`: [InheritanceExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/InheritanceExample/InheritanceExample.java)
-  - Concept of Overloading (a.k.a Static Polymorphism or Compile Time Polymorphism or Early Binding), Method Signatures & Automatic Promotion: [OverloadingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overloading/OverloadingExample.java)
-  - Concept of Overriding (a.k.a Dynamic Polymorphism or Runtime Polymorphism or Late Binding): [OverridingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overriding/OverridingExample.java)
+  - Concept of Overloading (a.k.a. Static Polymorphism or Compile Time Polymorphism or Early Binding), Method Signatures & Automatic Promotion: [OverloadingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overloading/OverloadingExample.java)
+  - Concept of Overriding (a.k.a. Dynamic Polymorphism or Runtime Polymorphism or Late Binding): [OverridingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Overriding/OverridingExample.java)
   - Method Hiding for static methods & Overriding class attributes (not possible): [MethodHidingExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/MethodHiding/MethodHidingExample.java)
   - The saga of the `super` keyword
     1. `super` keyword and Super Class' Constructor being called automatically by the `javac` when the Child Class' Constructor is Not Defined: [SuperExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/oop/Super/SuperExample/SuperExample.java)
@@ -28,3 +28,7 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
   - Using `throw` keyword to explicitly raise an exception: [ThrowExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/Throw/ThrowExample.java)
   - Using `throws` keyword to delegate an exception to the calling method: [ThrowsExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/Throws/ThrowsExample.java)
   - Making custom defined exceptions by extending `RuntimeException` class: [UserDefinedExceptionExample.java](https://github.com/Ch-sriram/java-advanced-concepts/blob/master/exceptions/UserDefinedException/UserDefinedExceptionExample.java)
+
+- **Generics**
+  - What are Generics: [Generics.java](./generics/Generics.java)
+  - Covariance, Contravariance & Invariance (Producer Extends, Consumer Super): [PECS.java](./generics/PECS.java)
