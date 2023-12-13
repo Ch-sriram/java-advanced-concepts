@@ -32,3 +32,6 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
 - **Generics**
   - What are Generics: [Generics.java](./generics/Generics.java)
   - Covariance, Contravariance & Invariance (Producer Extends, Consumer Super): [PECS.java](./generics/PECS.java)
+
+- **Streams**
+  - Traditional Looping vs. Streams: [Streams.java](./streams/Streams.java)
