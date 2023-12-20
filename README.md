@@ -37,6 +37,8 @@ Implementation of advanced concepts of Java. Doesn't contain the basics of Java 
 - **Lambdas & Functional Interfaces**
   - Lambdas & Functional Interface Introduction: [LambdaAndFunctionalInterfaceTest.java](./lambda/LambdaAndFunctionalInterfaceTest.java)
   - Lambda Expression Syntax & Usage: [LambdaSyntaxAndUsageExample.java](./lambda/LambdaSyntaxAndUsageExample.java)
+  - More about Lambda Expressions: [MoreLambdaExpressions.java](./lambda/MoreLambdaExpressions.java) [Operation.java](./lambda/Operation.java)
+  - Functional Interfaces, Consumer and Predicate: [FunctionalInterfaceConsumerAndPredicate](./lambda/FunctionalInterfaceConsumerAndPredicate.java)
 
 - **Streams**
   - Traditional Looping vs. Streams: [Streams.java](./streams/Streams.java)
